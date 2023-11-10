@@ -655,28 +655,34 @@ section.cover blockquote>p>a:hover {
 .markdown-section em {
     color:#7f8c8d}
 .markdown-section code {
-    background-color: #FFFFFF;
-    border-radius:2px;
-    color:var(--highlightColor);
+    background-color: transparent;
+    border-radius:0px;
+    color:#FFFFFF;
+    border:0px solid #ccc;
     font-size:.9rem;
-    margin:2em 2em;
-    padding:3em 5em;
+    margin:0em 0em;
+    padding:0em 0em;
     white-space:pre-wrap;
-    border-left: 5px solid #6EBDC5;
-    padding-left: 10em;
+    border-left: 5px solid transparent;
+    padding-left: 0px;
     font-weight:700}
-.markdown-section code, .markdown-section pre {
-    background-color: #FFFFFF; /* BACK GROUD COLOR OF CODE BLOCK SIDES */
-    margin:0px 0px;
-    padding:0.5em 0.5em;
-    /*background-color:var(--codeBackgroundColor);*/
-    font-family:var(--codeFontFamily)}
+
+/*.markdown-section code, .markdown-section pre {*/
+/*    color: #FFFFFF;*/
+/*    background-color: transparent;  BACK GROUD COLOR OF INLINE CODE BLOCK SIDES */
+/*    margin:0px 0px;*/
+ /*   border:0px solid #ccc;*/
+/*    padding:0.5em 0.5em;*/
+/*    background-color:var(--codeBackgroundColor);*/
+ /*   font-family:var(--codeFontFamily)}*/
 .markdown-section pre {               /* SETTINGS FOR CODE BLOCK MARGINS */
     background-color: #FFFFFF;
     -moz-osx-font-smoothing:initial;
     -webkit-font-smoothing:initial;
+    /*border:0px solid #ccc;*/
+    border-left:3px solid #0A7E82;
     line-height:1.5rem;
-    margin:0.8em 0.8em;
+    margin:0.0em 0.0em;
     overflow:auto;
     padding:0.0em 0em;
     position:relative;

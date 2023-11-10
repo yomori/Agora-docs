@@ -2,7 +2,7 @@
 * [Sim access](/access.md)
 * [Raw MDPL2 products](/mdpl2.md)
 * [Halo lightcone](/halolc.md)
-* [Raytracing](/raytracing.md)
+* [Raytracing](/raytrace.md)
 * [CMB](/cmb.md)
 * [CIB](/cib.md)
 * [tSZ](/tsz.md)

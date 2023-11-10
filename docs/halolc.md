@@ -4,8 +4,7 @@ The raw ascii halo catalog files are halos in a cube box.
 We tile the simulation box and produce a halo lightcone from it.
 These are stored in:
 
-
- ```halocat/```
+ ```globus: halocat/```
 
 
 These files are stored as numpy .npz files and can be loaded using 
