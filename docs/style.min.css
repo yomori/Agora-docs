@@ -655,13 +655,13 @@ section.cover blockquote>p>a:hover {
 .markdown-section em {
     color:#7f8c8d}
 .markdown-section code {
-    background-color: transparent;
+    background-color: #333333;
     border-radius:0px;
     color:#FFFFFF;
     border:0px solid #ccc;
     font-size:.9rem;
-    margin:0em 0em;
-    padding:0em 0em;
+    margin:3px 2px;
+    padding:2px 2px;
     white-space:pre-wrap;
     border-left: 5px solid transparent;
     padding-left: 0px;

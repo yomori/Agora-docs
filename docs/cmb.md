@@ -2,7 +2,8 @@
 
 CMB maps can be found in:
 
- ```globus: components/cmb/```
+```globus: components/cmb/```
+
 
 There are three directories insde:
 
@@ -24,7 +25,7 @@ There are two sets, which are independent realizations of the primary CMB:
 
 These files are stored as HEALPix alm files and can be read in using:
 ```python
-alm = hp.read_alm(file_unl_alm)
+tlm, elm, blm = hp.read_alm(file_unl_alm,hdu=[1,2,3])
 ```
 
 ---------------------------------------
@@ -40,12 +41,12 @@ Non-Gaussian realization refers to lensing potential from raytracing through the
 
 ```phi/agora_phiNG_phi1_seed1.alm```
 
-(note the label```NG```, which stands for non-Gaussian). Since we only have one full N-body simulation realization, we only have seed 1.
+(note the label NG, which stands for non-Gaussian). Since we only have one full N-body simulation realization, we only have seed 1.
 Similar to unlensed CMB files, these lensing potentials are stored as HEALPix alm, and can be read using:  
 
 
 ```python
-alm = hp.read_alm(file_phi_alm)
+plm = hp.read_alm(file_phi_alm)
 ```
 
 
@@ -57,17 +58,17 @@ These are stored in:<BR>
 ```tqu1/agora_tqu1_phiG_seed1_lmax16000_nside8192_interp1.6_method1_pol_1_lensedmap.fits``` <BR>
 ```tqu2/agora_tqu2_phiG_seed1_lmax16000_nside8192_interp1.6_method1_pol_1_lensedmap.fits``` <BR>
 
-The two sets of CMB are lensed by the same lensing potention $\phi$, and each seed uses a *different* $\phi$.
+The two sets of lensed CMB are lensed by the same lensing potention $\phi$, and each seed uses a <ins>different</ins> $\phi$ realization.
 
 Additionally, two sets of lensed CMB, lensed with the non-Gaussian lensing potential can be found in:<BR>
 
 ```tqu1/agora_tqu1_phiNG_seed1_lmax16000_nside8192_interp1.6_method1_pol_1_lensedmap.fits``` <BR>
 ```tqu2/agora_tqu2_phiNG_seed1_lmax16000_nside8192_interp1.6_method1_pol_1_lensedmap.fits``` <BR>
 
-We provide realizations with different background CMB but the same lensing potential (since we only have one). 
+We provide realizations with different background CMB but the <ins>same</ins> lensing potential (since we only have one). 
 
 These are stored as HEALPix TQU maps, which can be read in using:
 
 ```python
-d = hp.read_map(file_phi_alm,field=[0,1,2])
+t, q, u = hp.read_map(file_phi_alm,field=[0,1,2])
 ```

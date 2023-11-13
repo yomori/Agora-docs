@@ -7,6 +7,7 @@
 * [CIB](/cib.md)
 * [tSZ](/tsz.md)
 * [kSZ](/ksz.md)
+* [Radio](/radio.md)
 * [CMB lensing](/cmblensing.md)
 * [Galaxy lensing](/gallensing.md)
 * [LIM](/lim.md)
