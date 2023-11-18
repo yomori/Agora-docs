@@ -1,4 +1,4 @@
-# CMB lenisng 
+# CMB lensing 
 
 CMB lensing maps can be found in:
 
