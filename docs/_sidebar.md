@@ -1,6 +1,7 @@
 * [Overview](/ "Agora")
 * [Sim access](/access.md)
 * [Raw MDPL2 products](/mdpl2.md)
+* [Density/Velocity shells](/densityvelocity.md)
 * [Halo lightcone](/halolc.md)
 * [Raytracing](/raytrace.md)
 * [CMB](/cmb.md)
@@ -9,6 +10,8 @@
 * [kSZ](/ksz.md)
 * [Radio](/radio.md)
 * [CMB lensing](/cmblensing.md)
+* [Mocksky](/mocksky.md)
 * [Galaxy lensing](/galaxylensing.md)
-* [HOD-based galaxies](/hodgalaxy.md)
-* [LIM](/lim.md)
+* [Galaxy density](/galaxydensity.md)
+
+
