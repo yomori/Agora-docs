@@ -1,4 +1,4 @@
-# Galaxy lensing 
+# Galaxy density
 
 Galaxy density maps can be found in
 
