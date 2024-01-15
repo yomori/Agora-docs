@@ -25,3 +25,8 @@ These are stored as HEALPix T maps, which can be read in using:
 ```python
 ksz = hp.read_map(file_ksz)
 ```
+
+Additionally, $\tau$ maps generated using the exact same code without multiplying the $v_{\rm LOS}$ can be found in:
+
+```globus: components/ksz/unl```
+
