@@ -26,6 +26,8 @@ These are stored as HEALPix T maps, which can be read in using:
 ksz = hp.read_map(file_ksz)
 ```
 
+Note: the Q/U extensions have been filled with random non-zero numbers so that we have a T/Q/U set which is needed for PolSpice.
+
 Additionally, $\tau$ maps generated using the exact same code without multiplying the $v_{\rm LOS}$ can be found in:
 
 ```globus: components/ksz/unl```

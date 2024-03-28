@@ -24,3 +24,5 @@ These are stored as HEALPix T maps, which can be read in using:
 ```python
 tsz = hp.read_map(file_tsz)
 ```
+
+Note: the Q/U extensions have been filled with random non-zero numbers so that we have a T/Q/U set which is needed for PolSpice.
