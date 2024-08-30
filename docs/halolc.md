@@ -14,9 +14,11 @@ halocat = np.load('agora_halolc_rot_X_v050223.npz')
 ```
 where X is the slice number. Slice number ranges from 4-200 and each integer increases by 25 ${\rm Mpc}/h$.
 In other words:<BR>
-X=0 -> 0-25 $ {\rm Mpc}/h$ <BR>
-X=1 -> 25-100 $ {\rm Mpc}/h$ <BR>
-
+X=0 -> 0-24 $ {\rm Mpc}/h$ <BR>
+X=1 -> 25-49 $ {\rm Mpc}/h$ <BR>
+X=2 -> 50-75 $ {\rm Mpc}/h$ <BR>
+...<BR>
+<BR>
 
 The columns included in the catalog are: <BR>
 ```
