@@ -1,6 +1,6 @@
 # tSZ
 
-tSZ maps can be found in:
+tSZ maps (as Compton-y, not T) can be found in:
 
 ```globus: components/tsz/```
 
@@ -19,10 +19,10 @@ model: ```bahamas78```/```bahamas80```  stands for the BAHAMAS halo model with $
 
 The other labels imply that it includes both the bound and unbound components and mass range $10^{12}<M<10^{18} M_{\odot}/h$
 
-These are stored as HEALPix T maps, which can be read in using:
+These are stored as HEALPix maps (in field=0), which can be read in using:
 
 ```python
 tsz = hp.read_map(file_tsz)
 ```
 
-Note: the Q/U extensions have been filled with random non-zero numbers so that we have a T/Q/U set which is needed for PolSpice.
+Note: the Q/U extensions (fields=1,2) have been filled with random non-zero numbers so that we have a T/Q/U set which is needed for PolSpice.
